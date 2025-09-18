@@ -53,10 +53,11 @@
 }
 .MainBox{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 .MainText{
+    max-width: 50%;
     font-size: 24px;
     padding-left: 40px;
     margin: 0 40px;
@@ -64,11 +65,11 @@
 .MainTitleText{
     font-size:34px;
     font-weight: 900;
+    flex-wrap: wrap;
 }
 .StatBlok{
-    padding:80px;
+    flex-direction: row;
     display: flex;
-    max-width: 50%;
     flex-wrap: wrap;
 }
 .StatBox{
@@ -86,4 +87,15 @@
 }
 .StatsDescription{
     font-size: 24px;
+}
+.IMGConteiner{
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+}
+.IMGProp{
+    margin-top: -320px;
+    max-width: 574px;
+    max-height: 521px;
 }
