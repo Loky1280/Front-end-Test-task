@@ -1,0 +1,89 @@
+.HeaderClass{
+    background-image: url("Resurs/Index/IndexTop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    width:auto;
+    min-height: 630px;
+    height: auto;
+    flex-direction: column;
+}
+.LogoStyle{
+    height: 120px;
+    width: 150px;
+    margin: 0 40px;
+    padding: 30px;
+}
+.ButtonStyle{
+    font-size: 105%;
+    min-height: 30px;
+    min-width: 50px;
+    background-color:transparent;
+    border: none;
+    color: rgb(213, 212, 212);
+    margin: 30px 40px;
+}
+.ButtonStyle:hover{
+    color:white;
+}
+.NavigationPosition{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.Shadow{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.TextProps{
+    font-size: 150%;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.TextBox{
+    max-width: 100%;
+}
+.AnArrow{
+    max-width: 144px;
+    max-height: 144px;
+}
+.AnArrow:hover{
+    transform:scale(112%);
+}
+.MainBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MainText{
+    font-size: 24px;
+    padding-left: 40px;
+    margin: 0 40px;
+}
+.MainTitleText{
+    font-size:34px;
+    font-weight: 900;
+}
+.StatBlok{
+    padding:80px;
+    display: flex;
+    max-width: 50%;
+    flex-wrap: wrap;
+}
+.StatBox{
+    padding-left: 40px;
+}
+.StatsTitle{
+    color:orange;
+    font-size: 48px;
+    
+}
+.StatsText{
+    font-size:20px;
+    color:orange;
+    margin: 20px;
+}
+.StatsDescription{
+    font-size: 24px;
+}
