@@ -103,7 +103,7 @@
 }
 .MapConteiner{
     margin-top: 50px;
-    display: inline-block;
+    display: block;
     justify-content: center;
     align-items: center;
     min-height: 780px;
@@ -146,18 +146,73 @@
 }
 .Norht, .Central, .South{
     position: absolute;
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 20px;
     height: 40px;
     width: 245px;
     padding: 8px 12px;
-    display: inline-block;
     background-color: rgba(109, 108, 108, 0.526);
     color: white;
     border-radius: 8px;
 }
 .Norht{
-    top: 15%;
+    top: 17%;
     left: 26%;
+}
+.Central{
+    top: 31%;
+    left: 36%
+}
+.South{
+    top: 51%;
+    left: 32%;
+}
+.Circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    min-height: 24px;
+    max-width: 24px;
+    max-height: 24px;
+    background-color: white;
+    border-radius: 50%;
+}
+.CircleTextProp{
+    position: absolute;
+    color: black;
+    align-items: center;
+}
+.ZoomButtonStyle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    top: 84.3%;
+    left: 43%;
+    min-height: 48px;
+    min-width: 180px;
+    border: none;
+    background-color: rgba(251, 251, 251, 0.9);
+}
+.AllProjectsButton{
+    font-size: large;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    min-height: 60px;
+    min-width: 180px;
+    border-radius: 8px;
+    left: 0%;
+    top: 44%;
+    padding: 20px;
+}
+.VectorButton{
+    max-width: 28px;
+    max-height: 28px;
 }
