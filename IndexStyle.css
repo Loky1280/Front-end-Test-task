@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
 .HeaderClass{
     background-image: url("Resurs/Index/IndexTop.jpg");
     background-size: cover;
@@ -215,4 +221,45 @@
 .VectorButton{
     max-width: 28px;
     max-height: 28px;
+}
+.ProjectsTitleStyle{
+    margin-left: 40px;
+    font-size: 36px;
+}
+.TableContainerProp{
+    margin: 0px;
+    padding: 0px;
+}
+.TableContainerProp img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    object-position: center;
+}
+.TableStyle{
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+.TableTextTitle, .TableText{
+    margin: 20px;
+    position: absolute;
+    left: 1%;
+    color: white;
+}
+.TableTextTitle{
+    font-size: 28px;
+    top: 2%;
+    font-weight: 700;
+}
+.TableText{
+    font-size: 20px;
+    top:12%;
+}
+.ImageWrapper{
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
