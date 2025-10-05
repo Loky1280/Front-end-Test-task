@@ -68,3 +68,115 @@ body {
 .TextConteiner{
     max-width: 60%;
 }
+.IMGConteiner{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+.LeftColoun, .RightColoun{
+    flex: 1;
+    margin-top: 30px;
+    max-width: 40%;
+}
+.LeftColoun {
+    margin-left: 100px;
+}
+
+.RightColoun {
+    margin-right: 100px;
+}
+
+.ImageContainer, .HeigthImageComtainer, .ImageContainer3, .ImageContainer6 {
+    background-image: url("Resurs/Index/IndexGroup/GroupPic1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 320px;             
+    width: 100%;
+    margin-bottom: 40px;
+    position: relative;
+}
+.ImageContainer3{
+     background-image: url("Resurs/Index/IndexGroup/GroupPic3.jpg");
+}
+.ImageContainer6{
+    background-image: url("Resurs/Index/IndexGroup/GroupPic6.jpg");
+}
+.HeigthImageComtainer{
+    background-image: url("Resurs/Index/IndexGroup/GroupPic2.jpg");
+    height: 682px;
+    max-height: 960px;
+}
+
+.ImageProp {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.TextOnImageContainer{
+    padding: 30px 40px;
+}
+.BaseTextOnImage{
+    color: white;
+}
+footer{
+    margin-top: 30px;
+    background-color: black;
+    padding: 20px 40px;
+}
+.FooterMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.SocialConteiner{
+    display: flex;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+}
+.SocialIconProp{
+    max-width: 40px;
+    max-height: 40px;
+    padding: 12px;
+}
+.LargeSocialIcon{
+    max-width: 32px;
+    max-height: 32px;
+    padding: 12px;
+}
+.FooterTextConteiner{
+    width: 25%;
+    flex-direction: column;
+    justify-content: center;
+}
+.FooterText, .StartFooterText{
+    color: white;
+    padding: 8px;
+    margin-left: 18px;
+}
+.StartFooterText{
+    padding-top: 60px;
+}
+.FooterAutorInformation{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.LogoBox{
+    display: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    min-height: 100%;
+}
+.FooterLogoStyle{
+    max-height: 150px;
+    max-width: 150px;
+    display: block;
+    margin: auto;
+}
