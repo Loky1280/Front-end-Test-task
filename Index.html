@@ -9,11 +9,16 @@
         <header class="HeaderClass">
             <nav class="NavigationPosition">
                 <img class="LogoStyle" src="Resurs\MotoonWight.png" alt="MotoonLogo">
-                <div>
-                    <button class="ButtonStyle">Who we are</button>
-                    <button class="ButtonStyle">What we do</button>
-                    <button class="ButtonStyle">Our Projects</button>
-                    <button class="ButtonStyle Shadow">AR</button>
+                <input type="checkbox" id="BurgerMenu">
+                
+                <div class="MenuContainer">
+                    <button class="NavigationElement BurgerMenuElement ButtonStyle">Who we are</button>
+                    <button class="NavigationElement BurgerMenuElement ButtonStyle">What we do</button>
+                    <button class="NavigationElement BurgerMenuElement ButtonStyle">Our Projects</button>
+                    <label for="BurgerMenu" class="NavigationElement BurgerMenuLabel">
+                    <img class="BurgerMenuStyle" src="Resurs/Index/BurgerIcon.png" alt="BurgerMenu">
+                    </label>
+                    <button class="NavigationElement ButtonStyle Shadow">AR</button>
                 </div>
             </nav>
             
@@ -23,9 +28,12 @@
             </div>
         </header>
         <div class="MainBox">
+            <a href="#MainContent">
             <img class="AnArrow" src="Resurs\Index\arrow.psd.png" alt="an arrow">
+            </a>
         </div>
         <main>
+            <section id="MainContent">
              <div class="MainText">
                 <p class="MainTitleText"><b>About Mooton</b></p>
                 <p>Motoon has distinguished itself as the foremost and longest-standing real
@@ -57,6 +65,7 @@ looking future.</p>
                 </div>
             </div>
         </div>
+        </section>
             <div class="IMGConteiner">
                     <img class="IMGProp" src="Resurs\Index\IndexIMG.jpg" alt="Product image">
             </div>
@@ -164,9 +173,35 @@ looking future.</p>
                         </td>
                     </tr>
                 </table>
-
             </div>
         </div>
-        
+        <footer>
+            <div class="FooterMain">
+                <div class="FooterTextConteiner">
+                    <p class="StartFooterText">Riyadh, KSA</p>
+                </div>
+                    <div class="SocialConteiner">
+                    <a href="#"><img class="SocialIconProp" src="Resurs\Social icons\InstagramIcon.png" alt="Our Instagram"></a>
+                    <a href="#"><img class="SocialIconProp" src="Resurs\Social icons\FacebookIcon.png" alt="Our FaceBook"></a>
+                    <a href="#"><img class="LargeSocialIcon" src="Resurs\Social icons\XIcon.png" alt="Our X"></a>
+                    <a href="#"><img class="SocialIconProp" src="Resurs\Social icons\LinkedInIcon.png" alt="Our LinkedIn"></a>
+                    <a href="#"><img class="SocialIconProp" src="Resurs\Social icons\YouTube.png" alt="Our YouTube"></a>
+                    <a href="#"><img class="LargeSocialIcon" src="Resurs\Social icons\WatsAppIcon.png" alt="Our WatsApp"></a>
+                </div>
+                <div class="LogoBox">
+                    <img class="FooterLogoStyle" src="Resurs/MotoonWight.png" alt="MotoonLogo">
+                </div>
+                <div class="FooterTextConteiner">
+                    <p class="FooterText">3113 Mohammed Ibn Abdulaziz Rd.</p>
+                    <p class="FooterText">Commercial Towers, North Tower</p> 
+                    <p class="FooterText">Floor, Riyadh 12212, KSA</p>
+                    <p class="StartFooterText">+966 9200 07122</p>
+                    <p class="FooterText">info@motoon.com.sa</p>
+                </div>
+            </div>
+            <div class="FooterAutorInformation">
+                <p class="FooterText">© 2024 Motoon Development. All rights reserved.</p>
+            </div>
+        </footer>   
     </body>
 </html>
