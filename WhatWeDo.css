@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.HeaderClass{
+    background-image: url("Resurs/WhatWeDoTopic.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    width:auto;
+    min-height: 630px;
+    height: auto;
+    flex-direction: column;
+}
+.CurrentPageStyle{
+    display: inline-block;
+    font-weight: 900;
+    border-bottom: 4px solid rgba(56, 56, 56, 0.964);
+    border-radius: 3px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: rgba(rgb(255, 255, 255), green, blue, alpha)                    
+}
+.LogoStyle{
+    height: 120px;
+    width: 150px;
+    margin: 0 40px;
+    padding: 30px;
+}
+.MenuContainer {
+    display: flex;
+    align-items:center; 
+}
+.NavigationElement{
+    margin: 30px 40px;
+    text-decoration: none;
+    color: inherit;
+    color: rgba(rgb(255, 255, 255), green, blue, alpha)
+}
+.ButtonStyle{
+    font-size: 105%;
+    min-height: 30px;
+    min-width: 50px;
+    background-color:transparent;
+    border: none;
+    color: rgba(rgb(32, 32, 32), green, blue, alpha)
+}
+.BurgerMenuStyle{
+    max-width: 30px;
+    max-height: 30px;
+}
+#BurgerMenu{
+    display: none;
+}
+#BurgerMenu:checked ~ .MenuContainer .BurgerMenuElement {
+    display:none;
+}
+.ButtonStyle:hover, .CurrentPageStyle:hover{
+    color:rgba(62, 62, 62, 0.804);
+}
+.NavigationPosition{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

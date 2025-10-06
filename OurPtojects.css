@@ -23,10 +23,13 @@ body {
 }
 .MenuContainer {
     display: flex;
-    align-items:self-start; 
+    align-items:center; 
 }
 .NavigationElement{
     margin: 30px 40px;
+    text-decoration: none;
+    color: inherit;
+    color: rgba(rgb(32, 32, 32), green, blue, alpha)
 }
 .ButtonStyle{
     font-size: 105%;
