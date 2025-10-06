@@ -19,7 +19,7 @@ body {
 .CurrentPageStyle{
     display: inline-block;
     font-weight: 900;
-    border-bottom: 4px solid rgba(56, 56, 56, 0.964);
+    border-bottom: 4px solid rgba(201, 200, 200, 0.964);
     border-radius: 3px;
     padding-bottom: 4px;
     text-decoration: none;
@@ -39,7 +39,7 @@ body {
     margin: 30px 40px;
     text-decoration: none;
     color: inherit;
-    color: rgba(rgb(255, 255, 255), green, blue, alpha)
+    color: rgb(221, 221, 221);
 }
 .ButtonStyle{
     font-size: 105%;
@@ -47,7 +47,7 @@ body {
     min-width: 50px;
     background-color:transparent;
     border: none;
-    color: rgba(rgb(32, 32, 32), green, blue, alpha)
+    color: rgba(255, 255, 255, 0.8);
 }
 .BurgerMenuStyle{
     max-width: 30px;
@@ -59,8 +59,8 @@ body {
 #BurgerMenu:checked ~ .MenuContainer .BurgerMenuElement {
     display:none;
 }
-.ButtonStyle:hover, .CurrentPageStyle:hover{
-    color:rgba(62, 62, 62, 0.804);
+.NavigationElement:hover{
+    color:rgba(208, 208, 208, 0.804);
 }
 .NavigationPosition{
     display: flex;

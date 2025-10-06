@@ -24,10 +24,13 @@ body {
 }
 .MenuContainer {
     display: flex;
-    align-items:self-start; 
+    align-items:center; 
 }
 .NavigationElement{
     margin: 30px 40px;
+    text-decoration: none;
+    color: inherit;
+    color: rgba(255, 255, 255, 0.8);
 }
 .ButtonStyle{
     font-size: 105%;
@@ -35,7 +38,7 @@ body {
     min-width: 50px;
     background-color:transparent;
     border: none;
-    color: rgb(213, 212, 212);
+    color: rgba(rgb(32, 32, 32), green, blue, alpha)
 }
 .BurgerMenuStyle{
     max-width: 30px;
@@ -47,8 +50,8 @@ body {
 #BurgerMenu:checked ~ .MenuContainer .BurgerMenuElement {
     display:none;
 }
-.ButtonStyle:hover{
-    color:white;
+.NavigationElement:hover{
+    color:rgba(208, 208, 208, 0.804);
 }
 .NavigationPosition{
     display: flex;
