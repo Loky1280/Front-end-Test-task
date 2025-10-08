@@ -121,6 +121,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     line-height: 2.5;
+    margin-bottom: 0px;
 }
 .LeftColoun, .RightColoun{
     max-width: 40%;
@@ -140,20 +141,30 @@ body {
 .AboutCompanyTextTitle{
     max-width: 48%;
 }
-.AboutCompanyImageContainer{
-    margin: 40px;
+.AboutCompanyGlobalImageContainer{
+    margin: 30px;
     max-width: 30%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .ImageContainer{
-    max-width: 56px;
-    max-height: 56px;
+    max-width: 78px;
+    max-height: 78px;
     padding: 48px;
 }
+.ImageProp{
+    max-width: 78px;
+    max-height: 78px;
+    padding-left: 8px;
+}
+.SubImageContainer{
+    display: flex;
+    
+    max-width: 50%;
+    text-align: center;
+}
 footer{
-    margin-top: 30px;
     background-color: black;
     padding: 20px 40px;
 }
