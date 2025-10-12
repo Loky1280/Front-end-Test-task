@@ -1,0 +1,23 @@
+.CurrentPageStyle{
+    display: inline-block;
+    font-weight: 900;
+    border-bottom: 4px solid rgb(190, 190, 190);
+    border-radius: 3px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: inherit;
+    color: rgba(255, 255, 255, 0.8);                
+}
+.TitleText{
+    font-size: 36px;
+    color: white;
+}
+.TitleClassComtainer{
+    padding: 60px;
+}
+.HeaderClass{
+    justify-content: space-between;
+}
+.LeftColoun{
+    max-width: 20%;
+}

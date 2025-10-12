@@ -8,6 +8,9 @@
     color: inherit;
     color: rgba(32, 32, 32, 0.8);                  
 }
+a{
+    text-decoration: none;
+}
 .LogoStyle{
     height: 120px;
     width: 150px;
