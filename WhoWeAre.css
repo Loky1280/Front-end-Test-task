@@ -1,0 +1,149 @@
+.CurrentPageStyle{
+    display: inline-block;
+    font-weight: 900;
+    border-bottom: 4px solid rgba(255, 250, 242, 0.8);
+    border-radius: 3px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: inherit;
+    color: rgba(255, 250, 242, 0.8);                    
+}
+main{
+    background-color: rgb(238, 237, 237);
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    line-height: 2.5;
+}
+.LeftColoun{
+    margin: 30px;
+    max-width: 35%;
+    font-weight: 900;
+}
+.VideoContainer{
+    width: 100%;
+    height: 560px;
+}
+.VideoContainer iframe{
+    width: 100%;
+    height: 100%;
+}
+.RightColoun{
+    margin: 30px;
+    max-width: 60%;
+}
+.TitleTextRightColoun{
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+.StatBlok{
+    gap: 20px;
+}
+.StatsTitle{
+    font-size: 32px;
+}
+.StatsText{
+    font-size: 16px;
+}
+.StatsDescription{
+    font-size: 20px;
+}
+.DirectorContainer{
+    margin: 60px;
+}
+.DirectorSubContainer{
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    max-height: 423px;
+}
+.DirectorTextContainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+    font-size: 18px;
+}
+.DirectorSubTextContainer{
+    letter-spacing: 2px;
+    line-height: 2.5;
+}
+.DirectorImageContainer{
+    padding-top: 20px;
+    max-width: 587px;
+    max-height: 423px;
+}
+.DirectorFooterContainer{
+    line-height: 1.8;
+    text-align: center;
+    flex-direction: column;
+}
+.DirectorTitle{
+    margin: 40px 0px 40px 0px;
+}
+.PortalMember{
+    padding: 60px;
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+.PortalMemberTegContainer{
+    max-width: 24%;
+    display: flex;
+    justify-content: space-between;
+}
+.PortalMemberTextPropertis, .CurrentPortalMemberPropertis{
+    color: rgba(77, 77, 77, 0.8);
+}
+.CurrentPortalMemberPropertis{
+    color: rgba(227, 168, 30, 0.8);
+    border-bottom: 2px solid rgba(227, 168, 30, 1);
+}
+.PortalMemberTextPropertis:hover{
+    color: rgba(93, 93, 93, 0.7);
+}
+.LeadesshipContainer{
+    padding: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.LeadesshipImageContainer{
+    justify-content: center;
+    display: flex;
+    width: 360px;
+    height: 360px;
+    background-color: rgb(39, 39, 39);
+}
+.LeadshipImageProp{
+    max-width: 360px;
+    max-height: 360px;
+}
+.OurHistoryContainer{
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+}
+.OurHistoryText, .OurHistoryContentContainer{
+    font-size: 32px;
+    padding: 60px;
+}
+.OurHistoryContentContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.OurHistoryImageContainer{
+    height: 420px;
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.OurHistoryImageDescription {
+    font-weight: 800;
+    font-size: 50px;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

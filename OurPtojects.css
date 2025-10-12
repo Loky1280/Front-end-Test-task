@@ -8,12 +8,12 @@ body {
 .CurrentPageStyle{
     display: inline-block;
     font-weight: 900;
-    border-bottom: 4px solid rgba(56, 56, 56, 0.964);
+    border-bottom: 4px solid rgb(190, 190, 190);
     border-radius: 3px;
     padding-bottom: 4px;
     text-decoration: none;
     color: inherit;
-    color: rgba(rgb(32, 32, 32), green, blue, alpha)                    
+    color: rgba(32, 32, 32, 0.8);                  
 }
 .LogoStyle{
     height: 120px;
