@@ -1,10 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  font-family:Arial, Helvetica, sans-serif;
-}
 .HeaderClass{
     background-image: url("Resurs/WhatWeDoTopic.jpg");
     background-size: cover;
@@ -23,50 +16,8 @@ body {
     border-radius: 3px;
     padding-bottom: 4px;
     text-decoration: none;
-    color: rgba(rgb(255, 255, 255), green, blue, alpha)                    
-}
-.LogoStyle{
-    height: 120px;
-    width: 150px;
-    margin: 0 40px;
-    padding: 30px;
-}
-.MenuContainer {
-    display: flex;
-    align-items:center; 
-}
-.NavigationElement{
-    margin: 30px 40px;
-    text-decoration: none;
-    color: inherit;
-    color: rgb(221, 221, 221);
-}
-.ButtonStyle{
-    font-size: 105%;
-    min-height: 30px;
-    min-width: 50px;
-    background-color:transparent;
-    border: none;
-    color: rgba(255, 255, 255, 0.8);
-}
-.BurgerMenuStyle{
-    max-width: 30px;
-    max-height: 30px;
-}
-#BurgerMenu{
-    display: none;
-}
-#BurgerMenu:checked ~ .MenuContainer .BurgerMenuElement {
-    display:none;
-}
-.NavigationElement:hover{
-    color:rgba(208, 208, 208, 0.804);
-}
-.NavigationPosition{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
+    color: rgba(255, green, blue, alpha)  
+}                  
 .HeaderText{
     max-width: 80%;
     margin: 0px auto;
@@ -160,65 +111,6 @@ body {
 }
 .SubImageContainer{
     display: flex;
-    
     max-width: 50%;
     text-align: center;
-}
-footer{
-    background-color: black;
-    padding: 20px 40px;
-}
-.FooterMain{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.SocialConteiner{
-    display: flex;
-    text-align: center;
-    align-items:center;
-    justify-content: center;
-}
-.SocialIconProp{
-    max-width: 40px;
-    max-height: 40px;
-    padding: 12px;
-}
-.LargeSocialIcon{
-    max-width: 32px;
-    max-height: 32px;
-    padding: 12px;
-}
-.FooterTextConteiner{
-    width: 25%;
-    flex-direction: column;
-    justify-content: center;
-}
-.FooterText, .StartFooterText{
-    color: white;
-    padding: 8px;
-    margin-left: 18px;
-}
-.StartFooterText{
-    padding-top: 60px;
-}
-.FooterAutorInformation{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-}
-.LogoBox{
-    display: 1;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 25%;
-    min-height: 100%;
-}
-.FooterLogoStyle{
-    max-height: 150px;
-    max-width: 150px;
-    display: block;
-    margin: auto;
 }

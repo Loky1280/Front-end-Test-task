@@ -300,6 +300,9 @@ footer{
     align-items: center;
 }
 .FooterMidleColoun{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 50%;
 }
 .SocialConteiner{
@@ -336,8 +339,8 @@ footer{
     justify-content:center;
 }
 .FooterLogoStyle{
-    max-height: 226px;
-    max-width: 226px;
-    display: block;
-    margin: auto;
+    min-height: 120px;
+    min-width: 120px;
+    max-height: 220px;
+    max-width: 220px;
 }
