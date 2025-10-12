@@ -284,15 +284,23 @@ body {
     width: 100%;
 }
 footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     margin-top: 30px;
     background-color: black;
     padding: 20px 40px;
 }
-.FooterMain{
+.FooterLeftColoun, .FooterRightColoun{
     display: flex;
-    justify-content: space-between;
+    width: 25%;
+}
+.FooterRightColoun{
+    display: flex;
     align-items: center;
-    flex-wrap: wrap;
+}
+.FooterMidleColoun{
+    width: 50%;
 }
 .SocialConteiner{
     display: flex;
@@ -310,15 +318,14 @@ footer{
     max-height: 32px;
     padding: 12px;
 }
-.FooterTextConteiner{
-    width: 25%;
-    flex-direction: column;
-    justify-content: center;
-}
 .FooterText, .StartFooterText{
     color: white;
     padding: 8px;
     margin-left: 18px;
+}
+.FooterTextConteiner{
+    display: flex;
+    flex-direction: column;
 }
 .StartFooterText{
     padding-top: 60px;
@@ -328,17 +335,9 @@ footer{
     align-items: center;
     justify-content:center;
 }
-.LogoBox{
-    display: 1;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 25%;
-    min-height: 100%;
-}
 .FooterLogoStyle{
-    max-height: 150px;
-    max-width: 150px;
+    max-height: 226px;
+    max-width: 226px;
     display: block;
     margin: auto;
 }
