@@ -92,25 +92,91 @@
 .AboutCompanyTextTitle{
     max-width: 48%;
 }
-.AboutCompanyGlobalImageContainer{
-    margin: 30px;
-    max-width: 30%;
+.AboutCompanyGlobalImageContainer {
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px;
+    gap: 20px; 
 }
-.ImageContainer{
-    max-width: 78px;
-    max-height: 78px;
-    padding: 48px;
+.ImageContainer {
+    flex: 0 0 48%; 
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px; 
 }
-.ImageProp{
+.ImageProp {
     max-width: 78px;
-    max-height: 78px;
+    max-height: 78px; 
     padding-left: 8px;
 }
-.SubImageContainer{
-    display: flex;
-    max-width: 50%;
+.SubImageContainer {
+    display: block;
+    width: 100%;
     text-align: center;
+    margin-top: 5px;
+}
+
+
+
+@media (max-width: 1024px) {
+  .HeaderClass {
+    min-height: auto;
+    padding: 40px 20px;
+  }
+  .HeaderText {
+    max-width: 90%;
+    font-size: 22px;
+    text-align: center;
+  }
+  .HeaderText h1 {
+    font-size: 28px;
+  }
+  .HeaderText h3 {
+    font-size: 16px;
+  }
+  .TableStyle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .TableContainerProp {
+    flex: 0 0 48%; 
+    margin-bottom: 20px;
+  }
+  .TableContainerProp img {
+    height: auto;
+  }
+  .TableTextTitle {
+    font-size: 18px;
+    top: 5%;
+  }
+  .TableText {
+    font-size: 14px;
+    top: 12%;
+  }
+  .CompanyPlansContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .LeftColoun, .RightColoun {
+    max-width: 90%;
+    margin: 20px 0;
+  }
+  .AboutCompany {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+  }
+  .AboutCompanyText {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .AboutCompanyGlobalImageContainer {
+    justify-content: center;
+  }
+  .AboutCompanyGlobalImageContainer .ImageContainer {
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
 }

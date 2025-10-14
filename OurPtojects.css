@@ -92,3 +92,51 @@ a{
 .BaseTextOnImage{
     color: white;
 }
+
+
+
+@media (max-width: 1024px) {
+
+  .MainTitleProhectText {
+    text-align: center;
+  }
+  .HeadTetx {
+    font-size: 28px;
+  }
+  .TextConteiner {
+    max-width: 80%;
+    line-height: 2;
+    padding: 0 20px;
+  }
+  .IMGConteiner {
+    flex-direction: row; 
+    flex-wrap: wrap;  
+    justify-content: center;
+    gap: 20px;      
+  }
+  .LeftColoun, .RightColoun {
+    flex: 0 0 48%;      
+    margin: 0;
+    max-width: 48%;
+  }
+  .LeftColoun {
+    margin-left: 0;
+  }
+  .RightColoun {
+    margin-right: 0;
+  }
+  .ImageContainer, .HeigthImageComtainer, .ImageContainer3, .ImageContainer6 {
+    height: 200px;      
+    margin-bottom: 20px;
+  }
+  .HeigthImageComtainer {
+    height: 300px;
+    max-height: 400px;
+  }
+  .TextOnImageContainer {
+    padding: 15px 20px;
+  }
+  .BaseTextOnImage {
+    font-size: 16px;
+  }
+}

@@ -5,6 +5,23 @@ body {
   height: 100%;
   font-family:Arial, Helvetica, sans-serif;
 }
+.FloatingIcon {
+    position: fixed;      
+    bottom: 20px;             
+    right: 20px;              
+    width: 60px;             
+    height: 60px;
+    cursor: pointer;         
+    z-index: 1000;           
+}
+.FloatingIcon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.FloatingIcon:hover {
+    transform: scale(1.1); 
+}
 .HeaderClass{
     background-image: url("Resurs/Index/IndexTop.jpg");
     background-size: cover;
@@ -93,7 +110,7 @@ body {
     font-weight: 900;
     flex-wrap: wrap;
 }
-.StatBlok{
+.StatBlock{
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
@@ -115,7 +132,7 @@ body {
 .StatsDescription{
     font-size: 24px;
 }
-.IMGConteiner{
+.IMGContainer{
     align-items: flex-start;
     display: flex;
     justify-content: flex-end;
@@ -126,7 +143,7 @@ body {
     max-width: 574px;
     max-height: 521px;
 }
-.MapConteiner{
+.MapContainer{
     margin-top: 50px;
     display: block;
     justify-content: center;
@@ -139,7 +156,7 @@ body {
     width: 100%;
     height: 100%;
 }
-.ButtonMapConteiner{
+.ButtonMapContainer{
     display: flex;
     flex-direction: column;
 }
@@ -291,21 +308,21 @@ footer{
     background-color: black;
     padding: 20px 40px;
 }
-.FooterLeftColoun, .FooterRightColoun{
+.FooterLeftColoumn, .FooterRightColoumn{
     display: flex;
     width: 25%;
 }
-.FooterRightColoun{
+.FooterRightColoumn{
     display: flex;
     align-items: center;
 }
-.FooterMidleColoun{
+.FooterMidleColoumn{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 50%;
 }
-.SocialConteiner{
+.SocialContainer{
     display: flex;
     text-align: center;
     align-items:center;
@@ -326,7 +343,7 @@ footer{
     padding: 8px;
     margin-left: 18px;
 }
-.FooterTextConteiner{
+.FooterTextContainer{
     display: flex;
     flex-direction: column;
 }
@@ -343,4 +360,71 @@ footer{
     min-width: 120px;
     max-height: 220px;
     max-width: 220px;
+}
+
+
+
+@media (max-width: 1024px) {
+  .NavigationPosition {
+    flex-direction: row;
+    align-items: center;
+  }
+  .MenuContainer {
+    flex-direction: row;
+  }
+  .LogoStyle {
+    width: 120px;
+    height: auto;
+    padding: 10px;
+  }
+  .TextProps h1 {
+    font-size: 24px;
+  }
+  .MainText {
+    max-width: 95%;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .MainContainer{
+    display: flex;
+    justify-content: space-between;
+  }
+  .StatBlock {
+    flex-direction: column;
+    align-items: center;
+  }
+  .IMGProp {
+    margin-top: 0;
+    width: 274px;
+    height: 321px;
+  }
+  .TableStyle {
+    display: flex;
+    flex-direction: column;
+  }
+  .TableContainerProp {
+    width: 100%;
+    display: block;
+  }
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .FooterLeftColoumn, .FooterMidleColoumn, .FooterRightColoumn {
+    width: 100%;
+    justify-content: center;
+  }
+  .FooterMidleColoumn {
+    order: 1; 
+  }
+  .FooterLeftColoumn {
+    order: 2; 
+  }
+  .FooterRightColoumn {
+    order: 3; 
+  }
+  .FooterLogoStyle {
+    margin: 20px auto;
+  }
 }
