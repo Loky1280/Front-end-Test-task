@@ -213,6 +213,7 @@ body {
     top: 9%;
     background-image: url(Resurs/Index/MapSearchButton.png);
     background-size: 20px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.204);
 }
 .MapButtonStyles{
     display: flex;
@@ -228,7 +229,7 @@ body {
     height: 40px;
     width: 245px;
     padding: 8px 12px;
-    background-color: rgba(109, 108, 108, 0.526);
+    background-color: rgba(255, 255, 255, 0.25);
     color: white;
     border-radius: 8px;
 }
@@ -272,8 +273,10 @@ body {
     min-width: 180px;
     border: none;
     background-color: rgba(251, 251, 251, 0.9);
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.211);
 }
 .AllProjectsButton{
+    text-align: right;
     font-size: large;
     position: absolute;
     display: flex;
@@ -282,14 +285,16 @@ body {
     border: none;
     min-height: 60px;
     min-width: 180px;
-    border-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 10px;
     left: 0%;
     top: 44%;
     padding: 20px;
+    box-shadow: inset 0px 0 10px rgba(0, 0, 0, 0.4);
 }
 .VectorButton{
-    max-width: 28px;
-    max-height: 28px;
+    max-width: 14px;
+    max-height: 14px;
 }
 .ProjectsTitleStyle{
     padding: 52px 0;
@@ -329,16 +334,24 @@ body {
     top:12%;
 }
 .ImageWrapper{
+    transition: transform 0.3s ease;
     position: relative;
     height: 100%;
     width: 100%;
+    border-radius: 0px;
+}
+.ImageWrapper:hover{
+    transform: scale(1.05);
+    z-index: 10;
+    border-radius: 8px;
+    overflow: hidden;
 }
 footer{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     margin-top: 30px;
-    background-color: black;
+    background-color: rgba(39, 38, 34, 1);
     padding: 20px 40px;
 }
 .FooterLeftColoumn, .FooterRightColoumn{
@@ -356,22 +369,17 @@ footer{
     width: 50%;
 }
 .SocialContainer{
+    padding-top: 84px;
     display: flex;
     text-align: center;
     align-items:center;
     justify-content: center;
 }
 .SocialIconProp{
-    max-width: 40px;
-    max-height: 40px;
-    padding: 12px;
-}
-.LargeSocialIcon{
-    max-width: 32px;
-    max-height: 32px;
     padding: 12px;
 }
 .FooterText, .StartFooterText{
+    font-size: 24px;
     color: white;
     padding: 8px;
     margin-left: 18px;
@@ -387,6 +395,10 @@ footer{
     display: flex;
     align-items: center;
     justify-content:center;
+}
+.FooterAutorText{
+    color: white;
+    font-size: 20px;
 }
 .FooterLogoStyle{
     min-height: 120px;
