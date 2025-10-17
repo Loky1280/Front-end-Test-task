@@ -79,6 +79,7 @@ body {
     color: black;
 }
 .BurgerMenuLabel{
+    position: fixed;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
