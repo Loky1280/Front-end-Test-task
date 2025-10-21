@@ -119,19 +119,19 @@ main{
     gap: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 .PersonalLeadssheapContainer{
     display: flex;
     flex-direction: column;
     flex: 0 0 24%;
+    align-items: center;
 }
 .LeadesshipImageContainer{
     justify-content: center;
     display: flex;
     aspect-ratio: 1/1;
     max-width: 360px;
-    width: 100%;
     background-color: rgb(39, 39, 39);
 }
 .LeadshipImageProp{
