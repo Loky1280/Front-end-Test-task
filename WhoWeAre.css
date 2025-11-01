@@ -7,6 +7,12 @@
     text-decoration: none;
     color: rgba(255, 250, 242, 0.8);                    
 }
+.HeaderTitle{
+    font-size: 75px;
+}
+.HeaderText{
+    font-size: 55px;
+}
 main{
     background-color: rgb(238, 237, 237);
     padding: 60px;
